@@ -6,7 +6,7 @@ export const greetings = {
   description:
     "As a seasoned frontend developer with over 6 years of experience, I am passionate about crafting elegant and efficient code. My expertise in React, JavaScript, and modern web development techniques allows me to create dynamic and user-friendly web applications that deliver an exceptional experience for users.In addition to my love for coding, I am also an avid learner. My current focus is on mastering the Japanese language, as well as delving deeper into frontend architecture and tools such as webpack and vite.I am also dedicated to writing clean and well-tested code. By implementing rigorous testing practices, I can ensure that my code is reliable and easy to maintain. Overall, I am a dedicated and detail-oriented developer who is constantly striving to improve my skills and deliver exceptional results for my clients. I am excited to continue exploring new technologies and techniques to enhance my abilities and deliver cutting-edge solutions for my clients.",
   resumeLink:
-    "https://docs.google.com/document/d/e/2PACX-1vRpNZ8OZqs8IBhpBc2u0FfmcFkMw-A5rdWWNYnqAwtbM9YRxwTXEXFDNMzLwW6BJXC9zZWDUPZEq6GA/pub",
+    "https://docs.google.com/document/d/e/2PACX-1vRakjQxAL5T5tAgEXmnmPBOLMFHKcqDQRvJd0wqIsKOo72jYX9u2Ebp2yCJ1cKCdT5fzozOw0hxVYws/pub",
 };
 
 export const openSource = {
@@ -94,10 +94,6 @@ export const skillsSection = {
           fontAwesomeClassname: "logos:heroku-icon",
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "logos:postgresql",
-        },
-        {
           skillName: "Github",
           fontAwesomeClassname: "akar-icons:github-fill",
         },
@@ -108,14 +104,6 @@ export const skillsSection = {
         {
           skillName: "Github Actions",
           fontAwesomeClassname: "logos:github-actions",
-        },
-        {
-          skillName: "Cloudinary",
-          fontAwesomeClassname: "logos:cloudinary",
-        },
-        {
-          skillName: "Nginx",
-          fontAwesomeClassname: "logos:nginx",
         },
         {
           skillName: "Sentry",
@@ -173,32 +161,40 @@ export const experience = [
     role: "Frontend Developer",
     company: "Advisor Engine",
     companylogo: "/img/icons/common/advisorengine.png",
-    date: "Jan 2022 – Mar 2022",
-    desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    date: "Oct 2021 – Present",
+    desc: "AdvisorEngine is a leading provider of digital wealth management technology that enables financial advisors to deliver personalized advice and build deeper client relationships. Their platform offers an array of powerful tools that allow financial advisors to create custom investment portfolios and financial plans, automate key processes, and deliver a seamless digital experience to clients. AdvisorEngine is committed to helping financial advisors grow their businesses and better serve their clients by providing innovative technology solutions and exceptional service.",
+    descBullets: [
+      "Spearheaded the development of new features for our goals-based and risk-based plans using React, resulting in improved user experience and increased customer satisfaction.",
+      "Streamlined the build process by replacing the outdated webpack tool with the modern and efficient vite, leading to a significant boost in developer productivity and faster release cycles.",
+      "Leveraged the Material-UI v5 framework to create dynamic theming for our data visualizations, resulting in a more polished and professional product.",
+      "Resolved complex technical issues and bugs, demonstrating strong problem-solving skills and a commitment to delivering high-quality work.",
+    ],
   },
   {
     role: "Frontend Developer",
     company: "Cengage",
     companylogo: "/img/icons/common/cengage.png",
-    date: "Apr 2022 – Jun 2022",
-    desc: "As a Frontend Engineer on the MindTap team, I worked on the education platform's student, teacher, and school administrator portals. I was responsible for building interactive content for K-12 learners using technologies such as React.js, Enzyme, Chai, and Cypress for testing. My role involved translating product management's requirements into high-quality, pixel-perfect deliverables that were delivered on time. The features I worked on included eBooks (EPUB3), reference audio, video libraries, lesson planning, and testing. I was part of an agile team that was dedicated to delivering a seamless user experience.",
+    date: "Feb 2018 – Sept 2021",
+    desc: "Cengage is an educational technology and services company that provides content, platforms, and personalized services to K-12, higher education, and professional markets. They focus on empowering educators and learners to achieve their goals by leveraging digital innovation and high-quality content.",
+    descBullets: [
+      "I was responsible for building interactive content for K-12 learners using technologies such as React.js, Enzyme, Chai, and Cypress for testing.",
+      "My role involved translating product management's requirements into high-quality, pixel-perfect deliverables that were delivered on time. ",
+      "The features I worked on included eBooks (EPUB3), reference audio, video libraries, lesson planning, and testing.",
+      "I was part of an agile team that was dedicated to delivering a seamless user experience.",
+    ],
   },
   {
     role: "Frontend Developer",
     company: "PsiLife",
     companylogo: "/img/icons/common/psi.png",
-    date: "Sept 2021 - Oct 2021",
+    date: "Sept 2021 - Sept 2022",
     desc: "Built a Progressive Web Application for a Healthcare startup using ReactJS and Hooks, collaborating with a team of CEO, designer, copywriter, and lead developer. Implemented Material-UI for various UI components and converted Javascript to Typescript for improved performance. Utilized React-Router for protected routes and React Context for data management. Created reusable components and an Admin portal for managing user data. Integrated custom client-admin chat and OKTA security measures to meet HIPAA requirements.",
   },
   {
     role: "Frontend Teacher",
     company: "CanCode",
     companylogo: "/img/icons/common/CanCode.png",
-    date: "Sept 2021",
+    date: "June 2018 - Present",
     desc: "As a Frontend Instructor at CanCode, I guide students in developing their skills in frontend web development, including HTML, CSS, JavaScript, React, and GitHub. Through hands-on projects and assignments, I help students apply their knowledge and gain practical experience in building user-friendly, visually appealing online experiences with React",
   },
 ];
@@ -241,7 +237,7 @@ export const feedbacks = [
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs = true;
+export const showContactUs = false;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
