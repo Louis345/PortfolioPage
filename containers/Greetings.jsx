@@ -7,7 +7,6 @@ import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
 
 const Greetings = () => {
-  console.log("greetings", greetings);
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
